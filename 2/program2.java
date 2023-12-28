@@ -30,10 +30,12 @@ public class program2 {
 
         // Display details of all employees
         for (Employee e : employees) {
-            System.out.println("Name: " + e.name + ", Emp_id: " + e.emp_id + ", Department: " + e.department + ", Age: " + e.age + ", Designation: " + e.designation);
+            System.out.println("Name: " + e.name + ", Emp_id: " + e.emp_id + ", Department: " + e.department + ", Age: "
+                    + e.age + ", Designation: " + e.designation);
         }
 
-        // Calculate and display the sum of salary of all the employees of "sales" department
+        // Calculate and display the sum of salary of all the employees of "sales"
+        // department
         double sum = 0;
         for (Employee e : employees) {
             if (e.department.equals("sales")) {
