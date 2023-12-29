@@ -1,3 +1,8 @@
+// 4.Write a java program to define a base class called person which 
+// stores information about a person such as name, age, gender. Derive
+//  two new classes employee and student and extend the base class methods 
+//  in derived class to read and display the details that are specific
+//   to student and employee. Display the details of at least five students and five employees.
 import java.util.Scanner;
 
 class Person {

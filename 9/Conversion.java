@@ -1,3 +1,5 @@
+// 9.Write a java program to illustrate the concept of packages and interfaces in java.
+
 import java.util.Scanner;
 
 interface Compute {

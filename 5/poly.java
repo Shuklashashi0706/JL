@@ -1,3 +1,8 @@
+// 5.Write a java program using compile time polymorphism 
+// (method overloading) to compare two strings. The program 
+// should implement two different versions of strcmp the first version
+//  of usrstrcmp () that compares two string the second version should
+//   compare only specified number of characters from first string with second string and display the results. 
 import java.util.Scanner;
 
 public class poly {
